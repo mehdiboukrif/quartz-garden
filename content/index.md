@@ -8,7 +8,7 @@ Ceci est un site Quartz propulsé par Obsidian. Vous pouvez ajouter vos propres 
 
 ## Fonctionnalités
 
-- Support des liens wiki [[comme ceci]]
+- Support des liens wiki [[00-Sommaire]]
 - Graphique de vos notes
 - Recherche en texte intégral
 - Et bien plus encore !
