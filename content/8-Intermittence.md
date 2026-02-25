@@ -1,15 +1,13 @@
 # 8 Modélisation de l'intermittence
 
- ```
- Données d'entrée
-- Type de bâtiment
-- Type de chauffage (divisé, central)
-- Type de régulation (par pièce ou non)
-- Equipement d'intermittence (absent, central sans minimum de température, ...)
-- Type d'émetteur (air soufflé, convecteurs, ...)
-- Présence d'un comptage
-- Hauteur moyenne sous plafond
-```
+>   Données d'entrée
+> - Type de bâtiment
+> - Type de chauffage (divisé, central)
+> - Type de régulation (par pièce ou non)
+> - Equipement d'intermittence (absent, central sans minimum de température, ...)
+> - Type d'émetteur (air soufflé, convecteurs, ...)
+> - Présence d'un comptage
+> - Hauteur moyenne sous plafond
 
 Le facteur d'intermittence traduit les baisses temporaires de température, réalisées pour différentes raisons, absence, ralenti de nuit et éventuellement de façon inégale dans les pièces.
 
