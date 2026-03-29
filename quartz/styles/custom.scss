@@ -69,3 +69,27 @@
     scrollbar-color: var(--gray) transparent;
   }
 }
+
+// Ticket 6 : Ajustement du design du menu et des marges
+
+// Réduction de la taille du titre sur mobile pour qu'il tienne sur une ligne
+@media all and (max-width: 600px) {
+  .page-title a {
+    font-size: 1.2rem;
+  }
+}
+
+// Réduction des marges supérieures - contenu principal
+.center {
+  padding-top: 1rem !important;
+}
+
+// Réduction des marges supérieures - barre latérale gauche
+.sidebar.left {
+  padding-top: 1rem !important;
+}
+
+// Réduction des marges supérieures - barre latérale droite
+.sidebar.right {
+  padding-top: 1rem !important;
+}

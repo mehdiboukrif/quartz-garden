@@ -121,9 +121,12 @@ button.desktop-explorer {
     overscroll-behavior: contain;
 
     & li > a {
-      color: var(--dark);
-      opacity: 0.75;
+      color: var(--darkgray);
+      opacity: 0.85;
       pointer-events: all;
+      font-size: 0.85rem;
+      font-weight: 400;
+      line-height: 1.4rem;
 
       &.active {
         opacity: 1;
@@ -161,11 +164,11 @@ button.desktop-explorer {
   user-select: none;
 
   & div > a {
-    color: var(--secondary);
+    color: var(--dark);
     font-family: var(--headerFont);
-    font-size: 0.95rem;
-    font-weight: $semiBoldWeight;
-    line-height: 1.5rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    line-height: 1.4rem;
     display: inline-block;
   }
 
@@ -186,12 +189,12 @@ button.desktop-explorer {
     font-family: var(--headerFont);
 
     & span {
-      font-size: 0.95rem;
+      font-size: 0.85rem;
       display: inline-block;
-      color: var(--secondary);
-      font-weight: $semiBoldWeight;
+      color: var(--dark);
+      font-weight: 700;
       margin: 0;
-      line-height: 1.5rem;
+      line-height: 1.4rem;
       pointer-events: none;
     }
   }
