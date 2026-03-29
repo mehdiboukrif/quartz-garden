@@ -44,6 +44,8 @@
 }
 
 // Barre de défilement masquée par défaut, visible au survol
+// Appliquer sur .explorer (conteneur principal scrollable) et .explorer-content
+.explorer,
 .explorer-content {
   // WebKit (Chrome, Safari, Edge)
   &::-webkit-scrollbar {
@@ -55,7 +57,6 @@
   &::-webkit-scrollbar-thumb {
     background: transparent;
     border-radius: 5px;
-    transition: background 0.3s ease;
   }
   &:hover::-webkit-scrollbar-thumb {
     background: var(--gray);
