@@ -43,32 +43,6 @@
   }
 }
 
-// Barre de défilement masquée par défaut, visible au survol
-// Appliquer sur .explorer (conteneur principal scrollable) et .explorer-content
-.explorer,
-.explorer-content {
-  // WebKit (Chrome, Safari, Edge)
-  &::-webkit-scrollbar {
-    width: 5px;
-  }
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: transparent;
-    border-radius: 5px;
-  }
-  &:hover::-webkit-scrollbar-thumb {
-    background: var(--gray);
-  }
-
-  // Firefox
-  scrollbar-width: none;
-  &:hover {
-    scrollbar-width: thin;
-    scrollbar-color: var(--gray) transparent;
-  }
-}
 
 // Ticket 6 : Ajustement du design du menu et des marges
 
