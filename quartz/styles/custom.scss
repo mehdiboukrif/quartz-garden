@@ -67,3 +67,20 @@
 .sidebar.right {
   padding-top: 1rem !important;
 }
+
+// Ticket 10 : Tableaux plus compacts avec grille complète
+
+table {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid var(--lightgray);
+  padding: 4px 8px;
+}
+
+th {
+  font-weight: 600;
+}
