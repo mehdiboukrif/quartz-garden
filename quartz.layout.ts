@@ -13,11 +13,7 @@ export const sharedPageComponents: SharedLayout = {
       },
     }),
   ],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/mehdiboukrif/quartz-garden",
-    },
-  }),
+  footer: Component.Footer({}),
 }
 
 // components for pages that display a single page (e.g. a single note)
