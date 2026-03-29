@@ -1,3 +1,15 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// Ticket 1 : Design inspiré de methode3cl.com
+
+// Callouts : style plus neutre, similaire à Obsidian Publish
+.callout[data-callout="info"],
+.callout[data-callout="note"] {
+  background-color: rgba(106, 134, 149, 0.1);
+  border-left: 4px solid #6a8695;
+}
+
+// Ajuster le titre principal du site
+.page-title a {
+  font-size: 1.8rem;
+}
