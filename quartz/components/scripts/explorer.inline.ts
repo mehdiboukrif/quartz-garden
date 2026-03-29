@@ -112,13 +112,36 @@ function createFolderNode(
   folderContainer.dataset.folderpath = folderPath
 
   if (opts.folderClickBehavior === "link") {
-    // Replace button with link for link behavior
+    // Replace button with link that also toggles the folder
     const button = titleContainer.querySelector(".folder-button") as HTMLElement
     const a = document.createElement("a")
     a.href = resolveRelative(currentSlug, folderPath)
     a.dataset.for = folderPath
     a.className = "folder-title"
     a.textContent = node.displayName
+    // Add click handler to also toggle the folder open/close
+    a.addEventListener("click", (evt: MouseEvent) => {
+      // Toggle the folder without preventing navigation
+      const container = a.closest(".folder-container") as HTMLElement
+      if (!container) return
+      const childFolder = container.nextElementSibling as HTMLElement
+      if (!childFolder) return
+      childFolder.classList.toggle("open")
+      const isCollapsed = !childFolder.classList.contains("open")
+      setFolderState(childFolder, isCollapsed)
+      const state = currentExplorerState.find(
+        (item) => item.path === container.dataset.folderpath,
+      )
+      if (state) {
+        state.collapsed = isCollapsed
+      } else {
+        currentExplorerState.push({
+          path: container.dataset.folderpath as FullSlug,
+          collapsed: isCollapsed,
+        })
+      }
+      localStorage.setItem("fileTree", JSON.stringify(currentExplorerState))
+    })
     button.replaceWith(a)
   } else {
     const span = titleContainer.querySelector(".folder-title") as HTMLElement
