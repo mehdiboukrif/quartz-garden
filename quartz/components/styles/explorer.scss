@@ -114,7 +114,7 @@ button.desktop-explorer {
   overflow-y: auto;
   margin-top: 0.5rem;
 
-  & ul {
+  & > ul {
     list-style: none;
     margin: 0;
     padding: 0;
