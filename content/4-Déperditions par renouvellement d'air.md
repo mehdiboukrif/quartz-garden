@@ -71,9 +71,9 @@ $$
 Q_{4 \text { Paenv }}=Q_{4 \text { Paconv } / m^{2}} * \text { Sdep }
 $$
 
-	- Sdep : surface des parois déperditives hors plancher bas $\left(\mathrm{m}^{2}\right)$
+- Sdep : surface des parois déperditives hors plancher bas $\left(\mathrm{m}^{2}\right)$
 
-	- $\mathrm{Q}_{4 \text { Paconv } / \mathrm{m}^{2}}$ : valeur conventionnelle de la perméabilité sous $4 \mathrm{~Pa}\left(\mathrm{~m}^{3} /\left(\mathrm{h} . \mathrm{m}^{2}\right)\right)$ :
+- $\mathrm{Q}_{4 \text { Paconv } / \mathrm{m}^{2}}$ : valeur conventionnelle de la perméabilité sous $4 \mathrm{~Pa}\left(\mathrm{~m}^{3} /\left(\mathrm{h} . \mathrm{m}^{2}\right)\right)$ :
 
 | $Q_{4 \text { Paconv/m }}{ }^{2}$ | Avant <br> 1948 | 1948-<br> 1974 | 1975-<br> 2005 | 2006-<br> 2012 | >2012 |
 | :-------------------------------: | :-------------: | :------------: | :------------: | :------------: | :---: |
