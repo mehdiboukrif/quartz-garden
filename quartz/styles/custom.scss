@@ -93,3 +93,21 @@ th {
 .page-listing .section {
   grid-template-columns: 3fr 1fr;
 }
+
+// Ticket 7 : Normalisation des tailles de police des titres H1–H4 (issue #21)
+// https://github.com/mehdiboukrif/quartz-garden/issues/21
+h1, article h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+h4 {
+  font-size: 12px;
+}
