@@ -89,3 +89,7 @@ th {
 .page-listing .meta {
   display: none;
 }
+
+.page-listing .section {
+  grid-template-columns: 3fr 1fr;
+}
