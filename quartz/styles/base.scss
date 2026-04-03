@@ -160,7 +160,7 @@ a {
   margin: 0 auto;
   & article {
     & > h1 {
-      font-size: 2rem;
+      font-size: 1.3rem;
     }
 
     & li:has(> input[type="checkbox"]) {
@@ -270,7 +270,10 @@ a {
 
     & .page-header {
       grid-area: grid-header;
-      margin: $topSpacing 0 0 0;
+      margin-top: $topSpacing;
+      margin-bottom: 0;
+      margin-left: 0;
+      margin-right: 0;
       @media all and ($mobile) {
         margin-top: 0;
         padding: 0;
@@ -393,7 +396,7 @@ h6 {
 
 // typography improvements
 h1 {
-  font-size: 1.75rem;
+  font-size: 1.3rem;
   margin-top: 2.25rem;
   margin-bottom: 1rem;
 }
