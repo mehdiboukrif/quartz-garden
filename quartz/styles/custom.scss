@@ -84,3 +84,8 @@ th, td {
 th {
   font-weight: 600;
 }
+
+// Ticket 14 : Masquer les dates dans les folder pages
+.page-listing .meta {
+  display: none;
+}
