@@ -6,7 +6,7 @@
 - Système de liens dans les pages, vue graphique des liens et table des matière dans chaque page.
 
 J'ai aussi croisé (en partie) la méthode de calcul 3CL 2021 avec le guide CEREMA DPE et le guide CEREMA Audit pour ajouter au bon endroit les informations supplèmentaires que ces documents peuvent apporter pendant la lecture de la méthode. 
-Chaque ajout est signalé pour éviter une confusion avec le document d'origine.
+>Chaque ajout est signalé pour éviter une confusion avec le document d'origine.
 
 En bas de chaque page il est possible de commenter (question d'interprétation ou idée d'ajout d'information...)
 
