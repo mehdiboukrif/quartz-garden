@@ -13,7 +13,7 @@ export default ((opts?: Options) => {
     const links = opts?.links ?? []
     return (
       <footer class={`${displayClass ?? ""}`}>
-        <p>© {year}</p>
+        <p>Slowtherm © {year}</p>
       </footer>
     )
   }
