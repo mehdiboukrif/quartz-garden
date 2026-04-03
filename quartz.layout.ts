@@ -39,6 +39,8 @@ export const defaultContentPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderDefaultState: "collapsed",
+      useSavedState: false,
       sortFn: (a, b) => {
         return a.displayName.localeCompare(b.displayName, undefined, {
           numeric: true,
@@ -96,6 +98,8 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({
+      folderDefaultState: "collapsed",
+      useSavedState: false,
       sortFn: (a, b) => {
         return a.displayName.localeCompare(b.displayName, undefined, {
           numeric: true,
