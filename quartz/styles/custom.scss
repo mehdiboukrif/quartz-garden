@@ -111,3 +111,19 @@ h3 {
 h4 {
   font-size: 12px;
 }
+
+// Ticket 8 : Supprimer l'espace vide en haut de la page d'accueil
+body[data-slug="index"] .page-header {
+  display: none;
+}
+
+// Supprimer le padding-top du .center sur la page d'accueil
+body[data-slug="index"] .center {
+  padding-top: 0 !important;
+}
+
+// Supprimer la marge du premier paragraphe de l'article (page d'accueil)
+body[data-slug="index"] article > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
